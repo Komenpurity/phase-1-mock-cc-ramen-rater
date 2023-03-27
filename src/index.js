@@ -2,7 +2,6 @@
 
 let ramenMenu = document.querySelector("#ramen-menu");
 getAllRamen();
-formEventListener();
 
 function getAllRamen(){
     fetch("http://localhost:3000/ramens")
